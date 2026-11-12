@@ -91,10 +91,11 @@ All four were reviewed and merged. The first three were stacked (each built on t
 ### Product detail and seller contact (TASK-18)
 - **Photo gallery** with thumbnails, the main photo first.
 - A note above the button when an item is reserved or sold.
-- **Contact the seller:**
+- **Contact the seller** (frontend done; the backend endpoint is still pending):
   - Not logged in → go to the login page and come back to the same product afterwards.
-  - Logged in → the contact details are loaded **only when you press the button**, then shown in a pop-up with LINE and phone links and a safety reminder to meet on campus.
+  - Logged in → the page asks for the contact details **only when you press the button**, then shows them in a pop-up with LINE and phone links and a safety reminder to meet on campus.
   - So the seller's contact details are never in the page data that every visitor downloads.
+  - The backend endpoint for this (`GET /products/:id/contact`) has not been built yet, so for now the flow works in mock-data mode.
 
 ## 4. How the frontend is built
 
