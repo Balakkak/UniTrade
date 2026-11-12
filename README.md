@@ -8,6 +8,7 @@
 ![Vercel](https://img.shields.io/badge/Vercel-000000?logo=vercel&logoColor=white)
 
 **Software Engineering course project** · team "VISIT CMU" · 2026
+
 **My role: Frontend Lead** ([Hidayat Buha](https://github.com/Balakkak))
 
 > This is my fork of the team repository: [maneekongritphichayaporn-creator/UniTrade](https://github.com/maneekongritphichayaporn-creator/UniTrade).
